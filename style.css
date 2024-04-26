@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Titillium+Web:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;    
+    font-family: "Titillium Web", sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 51%, rgba(130,0,255,1) 100%);    
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.912);
+    box-shadow: rgba(2, 2, 2, 0.755) 10px 10px 50px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    padding: 2rem 1rem;
+    border-radius: 3rem;
+}
+
+#titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Amatic SC', sans-serif;
+
+}
+
+#textoInstrucoes {
+    font-weight: 400;
+}
+
+#spanNumeroTentativas {
+    font-weight: 700;
+    color: rgb(68, 28, 105);
+}
+
+#containerEntradaBotao {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputNumero {
+    border-radius: 0.7rem;
+    border: solid 1px rgb(117, 81, 151);
+    padding: 0.2rem;
+    width: 8rem;
+    font-size: 1rem;
+}
+
+#inputNumero::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.botao {
+    border-radius: 0.7rem;
+    border: none;
+    padding: 0.2rem;
+    background-color: rgb(117, 81, 151);
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 7rem;
+}
+
+.botao:hover{
+    zoom: 1.1;
+    background-color: rgb(67, 48, 85)
+}
+
+.visivel {
+    visibility: visible;
+}
+
+.naoVisivel {
+    visibility: hidden;
+}
+
+#mensagem {
+    color: rgb(117, 81, 151);
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    #container {
+        max-width: 50%;
+        height: 60%;
+    }
+    #containerEntradaBotao {
+        flex-direction: row;
+    }
+
+    .botao  {
+        margin: 0 1rem;
+    }
+}
+@media screen and (min-width: 1023px) {
+    #container {
+        padding: 2rem;
+        height: 60%;
+    }
+}
