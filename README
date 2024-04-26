@@ -1,0 +1,33 @@
+# Jogo de Adivinhação
+
+## Descrição
+
+Este é um jogo interativo de adivinhação desenvolvido durante o programa Descodificadas - Trilha 3 - 2024-1. O jogador recebe um número aleatório entre 1 e 100 e tem um número limitado de tentativas para adivinhá-lo. O código utiliza condicionais para verificar se o palpite do jogador está correto e fornece dicas sobre se o palpite é maior ou menor que o número aleatório. O jogo termina quando o jogador acerta o número ou esgota todas as tentativas.
+
+## Funcionamento
+
+- O jogador digita um número no campo de entrada.
+- Ao clicar no botão "Advinhar", o jogo verifica se o número digitado é válido (entre 1 e 100) e se corresponde ao número secreto.
+- Se o número for válido e diferente do número secreto, o jogo fornece dicas sobre se o número é maior ou menor que o número secreto.
+- O jogador tem um número limitado de tentativas para adivinhar o número secreto.
+- O jogo termina quando o jogador acerta o número ou excede o limite de tentativas.
+
+## Tecnologias Utilizadas
+
+- JavaScript
+- HTML
+- CSS
+
+## Como Jogar
+
+1. Abra o arquivo HTML em seu navegador.
+2. Digite um número no campo de entrada.
+3. Clique no botão "Advinhar" para verificar se o número está correto.
+4. Siga as dicas fornecidas pelo jogo e tente adivinhar o número secreto.
+5. Se acertar o número, você vence o jogo! Se exceder o número de tentativas, o jogo termina.
+
+## Link
+
+- [Link do jogo no GitHub Pages](https://santosilva-anapaula.github.io/jogo-advinhacao/)
+
+Divirta-se jogando!
